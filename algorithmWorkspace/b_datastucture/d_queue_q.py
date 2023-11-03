@@ -1,4 +1,4 @@
-from d_queue import Queue
+from b_datastucture.d_queue import Queue
 def q1(num):
     # 1.queue 만들기
     cards = Queue()

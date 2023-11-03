@@ -52,7 +52,7 @@ tutorial_main (int argc, char *argv[])
   bus = gst_element_get_bus (pipeline);
   msg =
       gst_bus_timed_pop_filtered (bus, GST_CLOCK_TIME_NONE,
-      GST_MESSAGE_ERROR | GST_MESSAGE_EOS);
+      GST_MESgiSAGE_ERROR | GST_MESSAGE_EOS);
 
   /* Parse message */
   if (msg != NULL) {

@@ -22,11 +22,12 @@ class Stack:
         else:
             node.next = self.top  # top에 있던 애를 node 다음에 이어주기
             self.top = node  # top에 node를
-        # length 를 늘리는 코드 필요
+       
+        self.length += 1
 
     def pop(self):
         if self.top is None: return None
-        res = self.top 
+        res = self.top.data 
         self.top = self.top.next # top의 참조 끊기도록
         return res # top에 있던 애 반환
     

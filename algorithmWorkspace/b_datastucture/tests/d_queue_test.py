@@ -1,6 +1,6 @@
 import unittest
 import sys
-from d_queue import *
+from b_datastucture.d_queue import *
 sys.path.append(r'/Users/jeong_ahn/TIL/algorithmWorkspace/b_datastructure/tests')
 
 
