@@ -20,10 +20,9 @@ def q2(arr):
         for d2 in range(d1, len(arr)):
             liars = arr[d1] + arr[d2]
             if sum(arr) - liars == 100:
-                arr[d1] = 0
-                arr[d2] = 0
-                arr.remove(0)
-                arr.remove(0)
+                a, b = arr[d1], arr[d2]
+                arr.remove(a)
+                arr.remove(b)
                 return arr
                 
 
